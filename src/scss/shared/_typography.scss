@@ -1,0 +1,15 @@
+%description-16 {
+	font-size: max(12px, 1.6rem);
+	font-weight: 400;
+}
+
+%description-20 {
+	font-size: max(16px, 2rem);
+	font-weight: 400;
+}
+
+%header-230 {
+	font-weight: 700;
+	font-size: 23rem;
+	font-size: clamp(5rem, 26vh, 16vw);
+}

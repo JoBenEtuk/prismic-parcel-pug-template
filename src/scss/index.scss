@@ -1,0 +1,18 @@
+// @import 'splitting/dist/splitting.css';
+// @import 'splitting/dist/splitting-cells.css';
+
+@import './base/reset';
+
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/mixins';
+@import 'utils/utils';
+
+@import 'shared/links';
+@import 'shared/sections';
+@import 'shared/typography';
+
+@import 'components/nav';
+@import 'components/preloader';
+
+@import 'pages/home';

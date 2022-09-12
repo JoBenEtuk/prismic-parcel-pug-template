@@ -1,0 +1,17 @@
+$col-white: #fff;
+$col-black: #000000;
+
+$z-indexes: (
+	'noscript',
+	'preloader',
+	'navigation',
+	'content',
+	'canvas',
+	'4',
+	'3',
+	'2',
+	'1'
+);
+
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+$ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
