@@ -7,10 +7,12 @@
     "build": "parcel build src/**/**/*.html src/**/*.html src/*.html --dist-dir public"
   },
   "keywords": [],
-  "author": "",
+  "author": "Etuk Josiah Benjamin",
+  "staticFiles": {
+    "staticPath": "./src/robots.txt"
+  },
   "devDependencies": {
     "@parcel/config-default": "^2.0.0",
-    "@parcel/transformer-glsl": "^2.6.0",
     "@parcel/transformer-pug": "^2.1.1",
     "@parcel/transformer-sass": "^2.1.1",
     "auto-bind": "^5.0.1",
@@ -24,11 +26,9 @@
   "dependencies": {
     "@prismicio/client": "^6.5.1",
     "@prismicio/helpers": "^2.3.1",
-    "dat.gui": "^0.7.9",
     "fs": "^0.0.1-security",
     "gsap": "^3.7.1",
     "node-fetch": "^2.6.1",
-    "pug": "^3.0.2",
-    "three": "^0.141.0"
+    "pug": "^3.0.2"
   }
 }
